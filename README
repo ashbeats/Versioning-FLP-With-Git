@@ -1,0 +1,16 @@
+Versioning For FLStudio (*.flp) files using GIT
+================================================
+
+Usage Instructions:
+-------------------
+
+	Step 1: Move "mybin" folder to your git folder.  eg: E:\GIT\MY_BIN
+
+	Step 2:  EDIT .gitconfig/ GITCONFIG (Windows users)
+
+	[diff "flp"]
+		textconv = E:/git/mybin/flp_reader_for_git_diff.exe
+
+	Step 3: PLACE "ATTRIBUTES" FILE IN .GIT/INFO/
+	
+
